@@ -2,6 +2,7 @@
 	import Nav from './Components/Nav.svelte'
 	import FeedbackDisplay from './Components/FeedbackList.svelte'
 	import FeedbackStats from './Components/FeedbackStats.svelte'
+	import FeedbackForm from './Components/FeedbackForm.svelte'
 
 	let feedbacks = [
 		{
@@ -33,6 +34,7 @@
 
 <main class="container">
 	<Nav />
+	<FeedbackForm />
 	<FeedbackStats {count} {average} />
 	<FeedbackDisplay feedbacks={feedbacks} on:delete-feedback-forward={handleDeletion}/>
 	
