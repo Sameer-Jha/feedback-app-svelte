@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300&family=Zen+Kurenaido&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #480ca8;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+.container{
+  max-width: auto;
+  padding: 0 20px;
+}
+
+#logo{
+    font-family: "Dancing Script";
+    padding: 2px 1px;
+    margin: 2px 0px;
+}
+
+a{
+    color: #428ace;
+}
+
+a:hover {
+    color: #4361ee;
+}
+
+h1 {
+    color: #f72585;
+    font-family: "Zen Kurenaido";
+}
+
+footer{
+    background-color: #4361ee;
+    color: #4cc9f0;
+}
